@@ -1,0 +1,4 @@
+from adapters import AutoAdapterModel
+
+model = AutoAdapterModel.from_pretrained("undefined")
+model.load_adapter("jurgenpaul82/Oistars", set_active=True)
